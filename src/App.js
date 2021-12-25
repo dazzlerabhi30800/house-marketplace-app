@@ -11,6 +11,7 @@ import Category from './pages/Category';
 import Profile from './pages/Profile'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
+import CreateListing from './pages/CreateListing';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route exact path='/sign-in' element={<SignIn />} />
           <Route exact path='/sign-up' element={<SignUp />} />
           <Route exact path='/forgot-password' element={<ForgotPassword />} />
+          <Route exact path='/create-listing' element={<CreateListing />} />
         </Routes>
         <Navbar />
       </Router>
